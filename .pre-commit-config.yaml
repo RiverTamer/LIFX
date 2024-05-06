@@ -5,7 +5,7 @@
 
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0
+    rev: v4.6.0
     hooks:
     -   id: check-json
     -   id: check-toml
@@ -36,7 +36,7 @@ repos:
     -  id: go-fmt
 
 -   repo: https://github.com/nicklockwood/SwiftFormat
-    rev: 0.53.5
+    rev: 0.53.8
     hooks:
     -   id: swiftformat
 
